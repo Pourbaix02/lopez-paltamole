@@ -6,48 +6,46 @@
     margin: 0;
   }
   
-  .navbar {
-    background-color: #FFFFFF; /* Fondo blanco */
-    color: #000; /* Color del texto en el navbar */
+  nav {
     position: fixed; /* Fija el navbar en la parte superior */
-    width: 100%; /* Ocupa todo el ancho */
+    width: 75%; /* Ocupa todo el ancho */
     top: 0; /* Fija en la parte superior */
+    margin-top: 75px;
     z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
-    padding: 1rem 0; /* Espaciado superior e inferior */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  }
-  
-  .navbar-container {
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center;
   }
   
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    background-color: aqua;
+
+  }
+ 
+  .nav-space{
+    flex-grow: 1; 
+    background-color: bisque;
+   }
+
+
   .nav-links {
-    list-style: none; /* Quita el estilo de lista */
-    display: flex; /* Muestra los enlaces en fila */
-    gap: 1.5rem; /* Espaciado entre enlaces */
+    display: flex;
+    justify-content: space-between; /* Centra el menú dentro de su contenedor */
+    width: 900px;
+    background-color: aqua; 
   }
-  
+
   .nav-links a {
-    color: #FFFFFF; /* Color del texto en los enlaces */
-    text-decoration: none; /* Quita el subrayado */
-    padding: 0.5rem 1.5rem; /* Espaciado interno */
-    background-color: #E6CA20; /* Fondo amarillo */
-    border-radius: 15px; /* Bordes redondeados */
-    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    text-decoration: none;
   }
+
   
   .nav-links a:hover {
     background-color: #D2B400; /* Cambia el color de fondo al pasar el mouse */
     color: #FFF; /* Asegura que el texto siga siendo blanco */
   }
   
-  .logo {
-    position: absolute;
-    left: 1rem; /* Ubica el logo a la izquierda */
-    top: 50%; /* Centra verticalmente */
-    transform: translateY(-50%); /* Ajuste para centrarlo */
-  }
+ 
   
   
