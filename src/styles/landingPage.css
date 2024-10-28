@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Opcional: para que el padding y el margen no afecten el tamaño total */
+}
+
+html, body {
+  height: 100%; 
+  width: 100%; 
+}
+
+.main-container {
+  background-color: #D2B400;
+  height: 6025px; 
+  width: 100vw; 
+}
+
+.landing-image-container {
+  padding-top: 150px;
+  width: 100%; 
+  overflow: hidden; 
+}
+
+.landing-image-container img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
