@@ -1,0 +1,13 @@
+
+  
+  .logo-container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 45px;
+    margin-left: 150px;
+    z-index: 5;
+  }
+  
+

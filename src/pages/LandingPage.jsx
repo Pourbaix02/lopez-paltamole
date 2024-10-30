@@ -1,12 +1,14 @@
 import '../styles/landingPage.css'
 import landing1 from '../assets/landing1.JPG'
 import Navbar from '../components/Navbar'
+import BrandLogo from '../components/BrandLogo';
 
 
 const LandingPage = () => {
   
     return (
       <div className="main-container">
+        <BrandLogo/>
         <Navbar/>
         <div className="top-container">
         </div>
