@@ -1,0 +1,23 @@
+
+  
+  .cart-container {
+    position: fixed;
+    top: 55px;
+    right: 300px;
+    display: flex;
+    justify-content: right;
+    color: white;
+  }
+  
+  .cart-badge {
+    color: red;
+    background-color: black;
+    position: fixed;
+    top: 55px;
+    right: 300px;
+    width: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    
+  }
