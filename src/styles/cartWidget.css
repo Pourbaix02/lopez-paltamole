@@ -1,0 +1,18 @@
+/* cartWidget.css */
+
+.main-cart-container {
+    position: fixed;
+    right: 70px; /* Posiciona el CartWidget en la derecha */
+    top: 75px; /* Ajusta la posición vertical */
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: currentColor
+ 
+}
+
+.cart-icon {
+    fill: blue;
+}

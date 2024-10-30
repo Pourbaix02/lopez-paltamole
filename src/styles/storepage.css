@@ -1,5 +1,17 @@
-.main-container {
-    background-color: #D2B400;
+.main-store-container {
+    background-color: #ADCD68;
     height: 4425px; 
     width: 100vw; 
+    display: flex;
+    align-items: center; /* Alinea verticalmente el CartWidget con el Navbar */
+    justify-content: space-between; /* Coloca el Navbar a la izquierda y el CartWidget a la derecha */
+    padding: 0 20px; /* Añade espacio horizontal si lo deseas */
   }
+  
+  .Navbar {
+    flex-grow: 1; /* Ocupa el espacio restante */
+}
+
+.CartWidget {
+    margin-left: auto; /* Alinea el CartWidget a la derecha */
+}
